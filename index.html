@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud application</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="name">student name</label>
+                        <input type="text" name="name" id="sname">
+                    </div>
+                    <div>
+                        <label for="email1">email address</label>
+                        <input type="text" name="email1" id="email">
+                    </div>
+                    <div>
+                        <label for="phonenumber">phone number</label>
+                        <input type="number" name="phonenumber" id="pnumber">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="number" name="password" id="pass">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="form">
+                        <thead>
+                            <tr>
+                                <th>student name</th>
+                                <th>email address</th>
+                                <th>phone number</th>
+                                <th>password</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
